@@ -1,7 +1,7 @@
 import pymem
 from time import sleep
 
-with open(r"C:\Users\eliot\OneDrive\Desktop\OneDrive\Desktop\injector\code.py", "r") as file:
+with open(r"the code path", "r") as file:
     code = file.read()
 
 process = pymem.Pymem(input("Process: "))
